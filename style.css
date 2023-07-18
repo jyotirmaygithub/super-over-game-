@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --india--color : #0B69DE;
+    --pakistan--color : #0BDE3F;
+    --font--bold : 'Play', sans-serif;
+    --bottom--margin : 30px;
+    --text--color : white;
+}
+body{
+   background-image: url("https://t4.ftcdn.net/jpg/02/87/54/29/360_F_287542942_x8FeyvoeXMBoI2gK3JwxBxS9laMxPmOC.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 20px;
+   color: var(--text--color);
+}
+.universal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_class
+{
+    height: 15vh;
+    margin-bottom: var(--bottom--margin);
+}
+#logo{
+    width: 10vw;
+}
+.superover_box{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: var(--bottom--margin);
+}
+.india,.pakistan{
+    height: 50vh;
+    width: 30vw;
+    background-color: white;
+    border-radius: 30px;
+   
+}
+h1{
+    height: fit-content;
+    padding: 30px;
+    font-size: 90px;
+    font-weight: 900;
+    font-family: 'Play', sans-serif;
+    margin-bottom: var(--bottom--margin);
+}
+.india{
+    background-color: var(--india--color);
+}
+.pakistan{
+    background-color: var(--pakistan--color);
+}
+.ball{
+    height: 6vh;
+    width: 3vw;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--font--bold);
+}
+.player_calculation{
+    justify-content: space-evenly;
+    margin-bottom: var(--bottom--margin);
+    align-items: baseline;
+}
+span{
+    height: fit-content;
+    font-family: var(--font--bold);
+    font-size: 50px;
+    font-weight: 900;
+}
+section
+{
+    height: 20vh;
+    gap: 50px;
+}
+#strike,#reset{
+    cursor: pointer;
+    width: 6vw;
+}
+.sudden-change{
+    margin-top: 20px;
+}
